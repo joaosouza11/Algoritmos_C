@@ -1,0 +1,61 @@
+        -:    0:Source:E:/Documents/Fatec/Algoritmos/CLion_codes/Listas/Lista01/ex11/main.c
+        -:    0:Graph:E:\Documents\Fatec\Algoritmos\CLion_codes\Listas\Lista01\ex11\cmake-build-debug-coverage\CMakeFiles\ex11.dir\main.c.gcno
+        -:    0:Data:E:\Documents\Fatec\Algoritmos\CLion_codes\Listas\Lista01\ex11\cmake-build-debug-coverage\CMakeFiles\ex11.dir\main.c.gcda
+        -:    0:Runs:1
+        -:    1:#include <stdio.h>
+        -:    2:/*
+        -:    3:Uma pessoa pode se aposentar pelo INSS caso esteja em alguma das situações abaixo:
+        -:    4:• É do sexo masculino, possui pelo menos 65 anos, e pelo menos 10 anos de contribuição.
+        -:    5:• É do sexo masculino, possui pelo menos 63 anos, e pelo menos 15 anos de contribuição.
+        -:    6:• É do sexo feminino, possui pelo menos 63 anos, e pelo menos 10 anos de contribuição.
+        -:    7:• É do sexo feminino, possui pelo menos 61 anos, e pelo menos 15 anos de contribuição.
+        -:    8:Crie um programa para ler um caracter ’M’ ou ’F’ que representa o sexo de um indivíduo,
+        -:    9:ler a sua idade, e seu tempo de contribuição. O programa deverá então imprimir “Aposentável” caso o indivíduo se enquadrar em uma das situações acima. Caso contrário o
+        -:   10:programa deverá imprimir “Não Aposentável”.
+        -:   11:*/
+        -:   12:
+function main called 1 returned 0% blocks executed 23%
+        1:   13:int main() {
+        -:   14:    int idade, contri;
+        -:   15:    char sexo;
+        -:   16:
+        -:   17:    //Pegando Dados
+        1:   18:    printf("Sexo [M/F]: ");
+        1:   18-block  0
+call    0 returned 1
+        1:   19:    scanf("%c", &sexo);
+call    0 returned 0
+        -:   20:
+    #####:   21:    printf("\nIdade: ");
+call    0 never executed
+    #####:   22:    scanf("%d", &idade);
+call    0 never executed
+        -:   23:
+    #####:   24:    printf("\nAnos de contribuicao: ");
+call    0 never executed
+    #####:   25:    scanf("%d", &contri);
+call    0 never executed
+        -:   26:
+        -:   27:    //Logica
+    #####:   28:    if(sexo == "M") {
+branch  0 never executed
+branch  1 never executed
+    #####:   29:        printf("Teste1");
+    %%%%%:   29-block  0
+call    0 never executed
+    #####:   30:    } else if (sexo == "F") {
+    %%%%%:   30-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   31:        printf("Teste2");
+    %%%%%:   31-block  0
+call    0 never executed
+        -:   32:    } else {
+    #####:   33:        printf("Teste4");
+    %%%%%:   33-block  0
+call    0 never executed
+        -:   34:    }
+        -:   35:
+    #####:   36:    return 0;
+    %%%%%:   36-block  0
+        -:   37:}

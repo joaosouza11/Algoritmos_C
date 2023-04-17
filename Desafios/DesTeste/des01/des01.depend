@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1677877834 source:d:\documents\fatec\algoritmos\des01\main.c
+	<stdio.h>
+	<stdlib.h>
+

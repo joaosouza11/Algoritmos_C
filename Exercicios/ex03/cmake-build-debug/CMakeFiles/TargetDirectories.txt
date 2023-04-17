@@ -1,0 +1,3 @@
+D:/Documents/Fatec/Algoritmos/CLion_codes/ex03/cmake-build-debug/CMakeFiles/ex03.dir
+D:/Documents/Fatec/Algoritmos/CLion_codes/ex03/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Documents/Fatec/Algoritmos/CLion_codes/ex03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
